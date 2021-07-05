@@ -9,12 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack(alignment: .bottomTrailing) {
-            VStack() {
-                FloatingMenu()
-                    .padding()
-                SummaryView()
+        GeometryReader { geometry in
+            ZStack {
+                PlayerView()
+                    .frame(
+                        width: geometry.size.width,
+                        height: geometry.size.height * 0.7,
+                        alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/
+                    )
+                ZStack(alignment: .bottomTrailing) {
+                    VStack() {
+                        HStack {
+                            Spacer()
+                            FloatingMenu()
+                                .padding()
+                        }
+                        SummaryView()
+                    }
+                }
             }
+            .background(Color.black)
         }
     }
 }

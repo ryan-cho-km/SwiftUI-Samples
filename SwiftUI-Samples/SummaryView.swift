@@ -18,7 +18,7 @@ struct SummaryView: View {
                 .font(.caption)
                 .padding(2.0)
                 .cornerRadius(5.0)
-                .foregroundColor(.blue)
+                .foregroundColor(.white)
                 .background(Color.gray)
         }
     }
