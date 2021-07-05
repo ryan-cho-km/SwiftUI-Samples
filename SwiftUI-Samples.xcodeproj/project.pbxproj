@@ -12,6 +12,7 @@
 		D0B9D93C2692E13A00B3E2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B9D93B2692E13A00B3E2D9 /* Assets.xcassets */; };
 		D0B9D93F2692E13A00B3E2D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B9D93E2692E13A00B3E2D9 /* Preview Assets.xcassets */; };
 		D0B9D9472692F00700B3E2D9 /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9D9462692F00700B3E2D9 /* FloatingMenu.swift */; };
+		D0B9D9492692F53100B3E2D9 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9D9482692F53100B3E2D9 /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0B9D93E2692E13A00B3E2D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0B9D9402692E13A00B3E2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B9D9462692F00700B3E2D9 /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
+		D0B9D9482692F53100B3E2D9 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D0B9D9372692E13700B3E2D9 /* SwiftUI_SamplesApp.swift */,
 				D0B9D9392692E13700B3E2D9 /* ContentView.swift */,
 				D0B9D9462692F00700B3E2D9 /* FloatingMenu.swift */,
+				D0B9D9482692F53100B3E2D9 /* SummaryView.swift */,
 				D0B9D93B2692E13A00B3E2D9 /* Assets.xcassets */,
 				D0B9D9402692E13A00B3E2D9 /* Info.plist */,
 				D0B9D93D2692E13A00B3E2D9 /* Preview Content */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B9D93A2692E13700B3E2D9 /* ContentView.swift in Sources */,
+				D0B9D9492692F53100B3E2D9 /* SummaryView.swift in Sources */,
 				D0B9D9472692F00700B3E2D9 /* FloatingMenu.swift in Sources */,
 				D0B9D9382692E13700B3E2D9 /* SwiftUI_SamplesApp.swift in Sources */,
 			);

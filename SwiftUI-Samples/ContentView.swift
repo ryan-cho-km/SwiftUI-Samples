@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
-            HStack() {
-                Spacer()
+            VStack() {
                 FloatingMenu()
                     .padding()
+                SummaryView()
             }
         }
     }
