@@ -10,15 +10,10 @@ import SwiftUI
 struct PlayerView: View {
     var body: some View {
         Image("turtlerock")
+            .resizable()
+            .scaledToFit()
             .overlay(
-                ZStack {
-                    Circle()
-                        .foregroundColor(.secondary)
-                        .frame(width: 55, height: 55)
-                    Image(systemName: "play.fill")
-                        .imageScale(.large)
-                        .foregroundColor(.white)
-                }
+                MenuItem(imageName: "play.fill")
             )
     }
 }

@@ -18,13 +18,27 @@ struct ContentView: View {
                         alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/
                     )
                 ZStack(alignment: .bottomTrailing) {
-                    VStack() {
+                    VStack(alignment: .center) {
                         HStack {
                             Spacer()
                             FloatingMenu()
                                 .padding()
                         }
-                        SummaryView()
+                        HStack {
+                            Spacer()
+                                .frame(width: 5.0)
+                            SummaryView()
+                            Spacer()
+                            Button(action: {}) {
+                                Text("사용하기")
+                                    .font(.callout)
+                            }
+                            .padding(5.0)
+                            .foregroundColor(.white)
+                            .background(Color.blue)
+                            Spacer()
+                                .frame(width: 10.0)
+                        }
                     }
                 }
             }
